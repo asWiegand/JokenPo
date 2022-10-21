@@ -32,8 +32,8 @@ int game(){
     case 1: printf("Computador escolheu Pedra\n\n"); break;
     case 2: printf("Computador escolheu Papel\n\n"); break;
     case 3: printf("Computador escolheu Tesoura\n\n"); break;
-    case 3: printf("Computador escolheu Lagarto\n\n"); break;
-    case 3: printf("Computador escolheu Spock\n\n"); break;
+    case 4: printf("Computador escolheu Lagarto\n\n"); break;
+    case 5: printf("Computador escolheu Spock\n\n"); break;
   }
   if((player == 3 && cpu == 2 || player == 2 && cpu == 1 || player == 1 && cpu == 4 || player == 4 && cpu == 5 || player == 5 && cpu == 3 || player == 3 && cpu == 4 || player == 4 && cpu == 2 || player == 2 && cpu == 5 || player == 5 && cpu == 1 || player == 1 && cpu == 3)){
     printf("Você venceu!\n\n");
